@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="true" prefHeight="634.0" prefWidth="993.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekt.Controller">
+   <children>
+      <Circle fill="WHITE" layoutX="405.0" layoutY="247.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="Track1" fitHeight="150.0" fitWidth="200.0" layoutX="452.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Track2" fitHeight="150.0" fitWidth="200.0" layoutX="452.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tor.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="SignalBoxTrack" fitHeight="23.0" fitWidth="108.0" layoutX="351.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tor.png" />
+         </image>
+      </ImageView>
+      <Canvas fx:id="img" height="634.0" width="993.0" />
+   </children>
+</AnchorPane>
